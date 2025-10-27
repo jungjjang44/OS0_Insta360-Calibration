@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7888572a6793fda463b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ouster_sensor_msgs__py",
+					"jsonFile" : "directory-ouster_sensor_msgs__py-f5f4a194c01122321359.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_sensor_msgs/ouster_sensor_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ouster_sensor_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ouster_sensor_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ouster_sensor_msgs_egg-f15d28d0e4ce3ce2b9fe.json",
+					"name" : "ament_cmake_python_build_ouster_sensor_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_ouster_sensor_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_ouster_sensor_msgs-828a20a7498561a7a8c2.json",
+					"name" : "ament_cmake_python_symlink_ouster_sensor_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs-15913725fd86812ea8a3.json",
+					"name" : "ouster_sensor_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__cpp-45158db9c0cad10269fd.json",
+					"name" : "ouster_sensor_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ouster_sensor_msgs__py::@a7713168713ed11a3472",
+					"jsonFile" : "target-ouster_sensor_msgs__py-622389d9f890b27c9648.json",
+					"name" : "ouster_sensor_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_generator_c-c34367104e5879796cf3.json",
+					"name" : "ouster_sensor_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_generator_py-815b743e2b0d1c4f5d57.json",
+					"name" : "ouster_sensor_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_typesupport_c-6bd4fee24d69a63a6d9b.json",
+					"name" : "ouster_sensor_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_typesupport_c__pyext-f72efa4c62a42f512a54.json",
+					"name" : "ouster_sensor_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_typesupport_cpp-4e6d0099644e58c514be.json",
+					"name" : "ouster_sensor_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_typesupport_fastrtps_c-b064b0eb6e365ff379fa.json",
+					"name" : "ouster_sensor_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext-c1efe3ae3f841cbaf62e.json",
+					"name" : "ouster_sensor_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp-bec4eb51e43998c6fee9.json",
+					"name" : "ouster_sensor_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_typesupport_introspection_c-5572f8d8e9449cf29d1b.json",
+					"name" : "ouster_sensor_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_typesupport_introspection_c__pyext-3926d3edbf8b0082f286.json",
+					"name" : "ouster_sensor_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs__rosidl_typesupport_introspection_cpp-f70ac0f52e8a6b7a05fb.json",
+					"name" : "ouster_sensor_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ouster_sensor_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ouster_sensor_msgs_uninstall-01a878399bb13534fc7e.json",
+					"name" : "ouster_sensor_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d57ed4f60de839c9a937.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_sensor_msgs",
+		"source" : "/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-sensor-msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

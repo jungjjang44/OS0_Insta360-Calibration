@@ -1,0 +1,136 @@
+[35m[1mConsolidate compiler generated dependencies of target os_replay[0m
+[35m[1mConsolidate compiler generated dependencies of target os_cloud[0m
+[35m[1mConsolidate compiler generated dependencies of target os_sensor[0m
+[34m[1mGenerating build info header[0m
+[  3%] Built target os_cloud
+[  7%] Built target os_replay
+[ 11%] Built target os_sensor
+[35m[1mConsolidate compiler generated dependencies of target os_image[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target os_driver[0m
+[ 14%] Built target os_image
+[ 14%] Built target ouster_generate_header
+[ 18%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 22%] Built target os_driver
+[35m[1mConsolidate compiler generated dependencies of target ouster_client[0m
+[ 25%] Built target gtest
+[ 53%] Built target ouster_client
+[35m[1mConsolidate compiler generated dependencies of target ouster_ros_library[0m
+[ 57%] Built target ouster_ros_library
+[35m[1mConsolidate compiler generated dependencies of target os_replay_component[0m
+[35m[1mConsolidate compiler generated dependencies of target os_sensor_component[0m
+[35m[1mConsolidate compiler generated dependencies of target os_cloud_component[0m
+[ 62%] Built target os_replay_component
+[ 68%] Built target os_sensor_component
+[ 74%] Built target os_cloud_component
+[35m[1mConsolidate compiler generated dependencies of target os_image_component[0m
+[35m[1mConsolidate compiler generated dependencies of target os_driver_component[0m
+[35m[1mConsolidate compiler generated dependencies of target ouster_ros_test[0m
+[ 79%] Built target os_image_component
+[ 87%] Built target os_driver_component
+[100%] Built target ouster_ros_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/build.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/client.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/defaults.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/image_processing.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/cartesian.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/client_poller.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/netcompat.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/packet_writer.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/profile_extension.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/ring_buffer.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/lidar_scan.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/sensor_http.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/types.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/udp_packet_source.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/util.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/version.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/optional-lite/nonstd/optional.hpp
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/LICENSE
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/LICENSE-bin
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_sensor
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_replay
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_cloud
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_image
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_driver
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libouster_ros_library.so
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_sensor_component.so
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_replay_component.so
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_cloud_component.so
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_image_component.so
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_driver_component.so
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//common_point_types.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_point.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_processing_node_base.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_ros.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_sensor_node_base.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//sensor_point_types.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//visibility_control.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/client.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/defaults.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/image_processing.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/cartesian.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/client_poller.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/netcompat.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/packet_writer.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/profile_extension.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/ring_buffer.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/lidar_scan.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/sensor_http.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/types.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/udp_packet_source.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/util.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/version.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/nonstd/optional.hpp
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/LICENSE
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/driver.launch.py
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/driver_launch.py
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/os0.launch.py
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/record.composite.launch.xml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/record.launch.xml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/replay.composite.launch.xml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/replay_pcap.launch.xml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.py
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/sensor.independent.launch.xml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/config/community_driver.rviz
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/config/community_driver_config.yaml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/config/driver_params.yaml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/config/os_sensor_cloud_image_params.yaml
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/config/viz-reliable.rviz
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/environment/library_path.sh
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/environment/library_path.dsv
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/environment/path.sh
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/environment/path.dsv
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/local_setup.bash
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/local_setup.sh
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/local_setup.zsh
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/local_setup.dsv
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/package.dsv
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/ouster_ros/package.xml

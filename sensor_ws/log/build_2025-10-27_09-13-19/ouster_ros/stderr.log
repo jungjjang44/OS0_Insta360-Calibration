@@ -1,0 +1,33 @@
+[01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp:[m[K In member function ‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, uint64_t, ouster::LidarScan&)[m[K’:
+[01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp:781:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  781 |     } else if ([01;35m[Kls.frame_id == ((f_id + 1) % (pf.max_frame_id + 1))[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp:784:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Kconst uint64_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  784 |     } else if ([01;35m[Kls.frame_id != f_id[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:[m[K In member function ‘[01m[Kuint32_t ouster::sensor::packet_format::frame_id(const uint8_t*) const[m[K’:
+[01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:453:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuint16_t ouster::sensor::packet_format::col_frame_id(const uint8_t*) const[m[K’ is deprecated: Use frame_id instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  453 |         return [01;35m[Kcol_frame_id(nth_col(0, lidar_buf))[m[K;
+      |                [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/include/ouster/impl/packet_writer.h:8[m[K,
+                 from [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:19[m[K:
+[01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:1207:53:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1207 |     [[deprecated("Use frame_id instead")]] uint16_t [01;36m[Kcol_frame_id[m[K(
+      |                                                     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/src/os_image_node.cpp:52:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   52 |     void metadata_handler(const std_msgs::msg::String::ConstPtr& metadata_msg[01;35m[K)[m[K {
+      |                                                                              [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/include/ouster_ros/os_processing_node_base.h:14[m[K,
+                 from [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/src/os_image_node.cpp:21[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  105 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:158 (message):
+  ament_cmake_symlink_install_files() can't find
+  '/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/../LICENSE'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:350 (ament_cmake_symlink_install_files)
+  cmake_install.cmake:46 (include)
+
+[0m

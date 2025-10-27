@@ -1,0 +1,5 @@
+[console_scripts]
+cam_lidar_calibration_node = test_package.cam2LidarCalibrationNode:main
+image_publisher = test_package.imagePublisher:main
+test = test_package.test:main
+

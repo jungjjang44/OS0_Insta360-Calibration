@@ -1,0 +1,10 @@
+{
+  "package_name": "ouster_sensor_msgs",
+  "non_idl_tuples": [
+    "/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-sensor-msgs:msg/PacketMsg.msg",
+    "/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-sensor-msgs:msg/Telemetry.msg",
+    "/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-sensor-msgs:srv/GetConfig.srv",
+    "/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-sensor-msgs:srv/SetConfig.srv",
+    "/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-sensor-msgs:srv/GetMetadata.srv"
+  ]
+}

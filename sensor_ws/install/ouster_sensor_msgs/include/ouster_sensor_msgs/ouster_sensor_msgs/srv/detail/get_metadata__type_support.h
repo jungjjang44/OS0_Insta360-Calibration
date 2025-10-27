@@ -1,0 +1,1 @@
+/home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_sensor_msgs/rosidl_generator_c/ouster_sensor_msgs/srv/detail/get_metadata__type_support.h

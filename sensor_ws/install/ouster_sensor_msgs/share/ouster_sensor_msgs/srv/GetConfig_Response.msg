@@ -1,0 +1,1 @@
+/home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_sensor_msgs/rosidl_cmake/srv/GetConfig_Response.msg

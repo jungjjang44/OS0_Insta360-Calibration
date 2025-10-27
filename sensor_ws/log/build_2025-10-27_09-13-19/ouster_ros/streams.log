@@ -1,0 +1,226 @@
+[0.008s] Invoking command in '/home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros': AMENT_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros
+[0.015s] -- Build type not specified, using: Release
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.500s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.522s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.561s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.566s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.574s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.642s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.644s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.725s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.751s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.797s] -- Looking for pthread.h
+[0.869s] -- Looking for pthread.h - found
+[0.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.942s] -- Found Threads: TRUE  
+[0.995s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.021s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.040s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.071s] -- Found ouster_sensor_msgs: 0.12.2 (/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake)
+[1.085s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.094s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.108s] -- Found Eigen3: /usr/share/eigen3/cmake/Eigen3Config.cmake (found version "3.4.0") 
+[1.120s] -- Checking for module 'eigen3'
+[1.132s] --   Found eigen3, version 3.4.0
+[1.165s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.165s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.182s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.183s] -- looking for PCL_COMMON
+[1.184s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.184s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[1.185s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.211s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.290s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.297s] -- Found jsoncpp: /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake (found version "1.9.5") 
+[1.356s] -- Found CURL: /usr/include/x86_64-linux-gnu (found version "7.81.0") 
+[1.402s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.404s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.479s] -- Configuring done
+[1.624s] -- Generating done
+[1.657s] -- Build files have been written to: /home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros
+[1.674s] Invoked command in '/home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros' returned '0': AMENT_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros
+[1.676s] Invoking command in '/home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros': AMENT_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros -- -j4 -l4
+[1.730s] [  1%] [32mBuilding CXX object CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o[0m
+[1.730s] [  3%] [32mBuilding CXX object CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o[0m
+[1.730s] [  5%] [32mBuilding CXX object CMakeFiles/os_replay.dir/rclcpp_components/node_main_os_replay.cpp.o[0m
+[1.730s] [34m[1mGenerating build info header[0m
+[1.764s] [  5%] Built target ouster_generate_header
+[1.786s] [  7%] [32mBuilding CXX object CMakeFiles/os_image.dir/rclcpp_components/node_main_os_image.cpp.o[0m
+[5.628s] [  9%] [32m[1mLinking CXX executable os_sensor[0m
+[5.657s] [ 11%] [32m[1mLinking CXX executable os_cloud[0m
+[5.676s] [ 12%] [32m[1mLinking CXX executable os_image[0m
+[5.685s] [ 14%] [32m[1mLinking CXX executable os_replay[0m
+[5.786s] [ 14%] Built target os_sensor
+[5.816s] [ 16%] [32mBuilding CXX object CMakeFiles/os_driver.dir/rclcpp_components/node_main_os_driver.cpp.o[0m
+[5.835s] [ 16%] Built target os_cloud
+[5.859s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.869s] [ 18%] Built target os_image
+[5.881s] [ 18%] Built target os_replay
+[5.899s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.912s] [ 22%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o[0m
+[7.082s] [ 24%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.154s] [ 24%] Built target gtest_main
+[7.164s] [ 25%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o[0m
+[10.605s] [ 27%] [32m[1mLinking CXX executable os_driver[0m
+[10.745s] [ 27%] Built target os_driver
+[10.755s] [ 29%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_info.cpp.o[0m
+[11.182s] [ 31%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o[0m
+[11.452s] [ 33%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o[0m
+[13.904s] [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp:[m[K In member function ‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, uint64_t, ouster::LidarScan&)[m[K’:
+[13.904s] [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp:781:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.904s]   781 |     } else if ([01;35m[Kls.frame_id == ((f_id + 1) % (pf.max_frame_id + 1))[m[K) {
+[13.905s]       |                [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.905s] [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/lidar_scan.cpp:784:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Kconst uint64_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.905s]   784 |     } else if ([01;35m[Kls.frame_id != f_id[m[K) {
+[13.905s]       |                [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[14.350s] [ 35%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o[0m
+[15.729s] [ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[15.808s] [ 37%] Built target gtest
+[15.815s] [ 38%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/udp_packet_source.cpp.o[0m
+[16.732s] [ 40%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o[0m
+[18.180s] [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:[m[K In member function ‘[01m[Kuint32_t ouster::sensor::packet_format::frame_id(const uint8_t*) const[m[K’:
+[18.180s] [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:453:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuint16_t ouster::sensor::packet_format::col_frame_id(const uint8_t*) const[m[K’ is deprecated: Use frame_id instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.180s]   453 |         return [01;35m[Kcol_frame_id(nth_col(0, lidar_buf))[m[K;
+[18.180s]       |                [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.181s] In file included from [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/include/ouster/impl/packet_writer.h:8[m[K,
+[18.181s]                  from [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:19[m[K:
+[18.181s] [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/ouster-sdk/ouster_client/include/ouster/types.h:1207:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.181s]  1207 |     [[deprecated("Use frame_id instead")]] uint16_t [01;36m[Kcol_frame_id[m[K(
+[18.181s]       |                                                     [01;36m[K^~~~~~~~~~~~[m[K
+[21.021s] [ 42%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o[0m
+[22.631s] [ 44%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o[0m
+[22.657s] [ 46%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o[0m
+[23.973s] [ 48%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o[0m
+[25.398s] [ 50%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/profile_extension.cpp.o[0m
+[25.772s] [ 51%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/util.cpp.o[0m
+[27.658s] [ 53%] [32m[1mLinking CXX static library libouster_client.a[0m
+[27.756s] [ 53%] Built target ouster_client
+[27.783s] [ 55%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m
+[40.141s] [ 57%] [32m[1mLinking CXX shared library libouster_ros_library.so[0m
+[40.344s] [ 57%] Built target ouster_ros_library
+[40.368s] [ 59%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node_base.cpp.o[0m
+[40.368s] [ 61%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_processing_node_base.cpp.o[0m
+[40.368s] [ 62%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_sensor_node_base.cpp.o[0m
+[40.368s] [ 64%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_processing_node_base.cpp.o[0m
+[50.053s] [ 66%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_replay_node.cpp.o[0m
+[50.217s] [ 68%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node.cpp.o[0m
+[54.098s] [ 70%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o[0m
+[54.188s] [ 72%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_image_node.cpp.o[0m
+[55.678s] [ 74%] [32m[1mLinking CXX shared library libos_replay_component.so[0m
+[55.993s] [ 74%] Built target os_replay_component
+[56.018s] [ 75%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node_base.cpp.o[0m
+[63.711s] [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/src/os_image_node.cpp:52:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[63.711s]    52 |     void metadata_handler(const std_msgs::msg::String::ConstPtr& metadata_msg[01;35m[K)[m[K {
+[63.711s]       |                                                                              [01;35m[K^[m[K
+[63.711s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+[63.711s]                  from [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/include/ouster_ros/os_processing_node_base.h:14[m[K,
+[63.711s]                  from [01m[K/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/src/os_image_node.cpp:21[m[K:
+[63.712s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[63.712s]   105 |     [01;36m[KConstPtr[m[K;
+[63.712s]       |     [01;36m[K^~~~~~~~[m[K
+[66.198s] [ 77%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node.cpp.o[0m
+[67.857s] [ 79%] [32m[1mLinking CXX shared library libos_sensor_component.so[0m
+[68.211s] [ 79%] Built target os_sensor_component
+[68.221s] [ 81%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o[0m
+[78.956s] [ 83%] [32m[1mLinking CXX shared library libos_image_component.so[0m
+[79.586s] [ 83%] Built target os_image_component
+[91.679s] [ 85%] [32m[1mLinking CXX shared library libos_cloud_component.so[0m
+[92.178s] [ 85%] Built target os_cloud_component
+[100.593s] [ 87%] [32m[1mLinking CXX shared library libos_driver_component.so[0m
+[100.940s] [ 87%] Built target os_driver_component
+[100.962s] [ 92%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/lock_free_ring_buffer_test.cpp.o[0m
+[100.962s] [ 92%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/test_main.cpp.o[0m
+[100.962s] [ 92%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/src/os_ros.cpp.o[0m
+[101.975s] [ 94%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_accessor_test.cpp.o[0m
+[102.034s] [ 96%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_transform_test.cpp.o[0m
+[103.504s] [ 98%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_cloud_compose_test.cpp.o[0m
+[116.229s] [100%] [32m[1mLinking CXX executable ouster_ros_test[0m
+[116.450s] [100%] Built target ouster_ros_test
+[116.462s] Invoked command in '/home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros' returned '0': AMENT_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros -- -j4 -l4
+[116.464s] Invoking command in '/home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros': AMENT_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros
+[116.471s] -- Install configuration: "Release"
+[116.472s] -- Execute custom install script
+[116.472s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/build.h
+[116.481s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/client.h
+[116.489s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/defaults.h
+[116.498s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/image_processing.h
+[116.506s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/cartesian.h
+[116.515s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/client_poller.h
+[116.523s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[116.532s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/netcompat.h
+[116.540s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/packet_writer.h
+[116.549s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/profile_extension.h
+[116.557s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/ring_buffer.h
+[116.566s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/lidar_scan.h
+[116.574s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/sensor_http.h
+[116.582s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/types.h
+[116.591s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/udp_packet_source.h
+[116.599s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/util.h
+[116.608s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/version.h
+[116.616s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/optional-lite/nonstd/optional.hpp
+[116.625s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+[116.633s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+[116.642s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/LICENSE
+[116.650s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/LICENSE-bin
+[116.659s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_sensor
+[116.668s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_replay
+[116.677s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_cloud
+[116.686s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_image
+[116.695s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_driver
+[116.703s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libouster_ros_library.so
+[116.712s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_sensor_component.so
+[116.720s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_replay_component.so
+[116.729s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_cloud_component.so
+[116.737s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_image_component.so
+[116.746s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_driver_component.so
+[116.755s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//common_point_types.h
+[116.764s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_point.h
+[116.772s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_processing_node_base.h
+[116.781s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_ros.h
+[116.789s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_sensor_node_base.h
+[116.797s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//sensor_point_types.h
+[116.806s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//visibility_control.h
+[116.815s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/client.h
+[116.815s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/defaults.h
+[116.815s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/image_processing.h
+[116.815s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/cartesian.h
+[116.815s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/client_poller.h
+[116.815s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[116.815s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/netcompat.h
+[116.816s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/packet_writer.h
+[116.816s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/profile_extension.h
+[116.816s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/ring_buffer.h
+[116.816s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/lidar_scan.h
+[116.816s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/sensor_http.h
+[116.816s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/types.h
+[116.816s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/udp_packet_source.h
+[116.816s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/util.h
+[116.817s] -- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/version.h
+[116.817s] -- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/nonstd/optional.hpp
+[116.825s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:158 (message):
+[116.826s]   ament_cmake_symlink_install_files() can't find
+[116.826s]   '/home/krri/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/../LICENSE'
+[116.826s] Call Stack (most recent call first):
+[116.826s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:350 (ament_cmake_symlink_install_files)
+[116.826s]   cmake_install.cmake:46 (include)
+[116.826s] 
+[116.826s] [0m
+[116.827s] Invoked command in '/home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros' returned '1': AMENT_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros

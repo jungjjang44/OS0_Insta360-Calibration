@@ -1,0 +1,187 @@
+-- Build type not specified, using: Release
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ouster_sensor_msgs: 0.12.2 (/home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/share/ouster_sensor_msgs/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found Eigen3: /usr/share/eigen3/cmake/Eigen3Config.cmake (found version "3.4.0") 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Found jsoncpp: /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake (found version "1.9.5") 
+-- Found CURL: /usr/include/x86_64-linux-gnu (found version "7.81.0") 
+-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/krri/OS0_Insta360-Calibration/sensor_ws/build/ouster_ros
+[  1%] [32mBuilding CXX object CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/os_replay.dir/rclcpp_components/node_main_os_replay.cpp.o[0m
+[34m[1mGenerating build info header[0m
+[  5%] Built target ouster_generate_header
+[  7%] [32mBuilding CXX object CMakeFiles/os_image.dir/rclcpp_components/node_main_os_image.cpp.o[0m
+[  9%] [32m[1mLinking CXX executable os_sensor[0m
+[ 11%] [32m[1mLinking CXX executable os_cloud[0m
+[ 12%] [32m[1mLinking CXX executable os_image[0m
+[ 14%] [32m[1mLinking CXX executable os_replay[0m
+[ 14%] Built target os_sensor
+[ 16%] [32mBuilding CXX object CMakeFiles/os_driver.dir/rclcpp_components/node_main_os_driver.cpp.o[0m
+[ 16%] Built target os_cloud
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 18%] Built target os_image
+[ 18%] Built target os_replay
+[ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 22%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o[0m
+[ 24%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 24%] Built target gtest_main
+[ 25%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable os_driver[0m
+[ 27%] Built target os_driver
+[ 29%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_info.cpp.o[0m
+[ 31%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o[0m
+[ 33%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o[0m
+[ 35%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o[0m
+[ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 37%] Built target gtest
+[ 38%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/udp_packet_source.cpp.o[0m
+[ 40%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o[0m
+[ 42%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http.cpp.o[0m
+[ 44%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_http_imp.cpp.o[0m
+[ 46%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_tcp_imp.cpp.o[0m
+[ 48%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o[0m
+[ 50%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/profile_extension.cpp.o[0m
+[ 51%] [32mBuilding CXX object ouster_example/ouster_client/CMakeFiles/ouster_client.dir/src/util.cpp.o[0m
+[ 53%] [32m[1mLinking CXX static library libouster_client.a[0m
+[ 53%] Built target ouster_client
+[ 55%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libouster_ros_library.so[0m
+[ 57%] Built target ouster_ros_library
+[ 59%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_processing_node_base.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_processing_node_base.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_replay_node.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_image_node.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library libos_replay_component.so[0m
+[ 74%] Built target os_replay_component
+[ 75%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node.cpp.o[0m
+[ 79%] [32m[1mLinking CXX shared library libos_sensor_component.so[0m
+[ 79%] Built target os_sensor_component
+[ 81%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libos_image_component.so[0m
+[ 83%] Built target os_image_component
+[ 85%] [32m[1mLinking CXX shared library libos_cloud_component.so[0m
+[ 85%] Built target os_cloud_component
+[ 87%] [32m[1mLinking CXX shared library libos_driver_component.so[0m
+[ 87%] Built target os_driver_component
+[ 92%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/lock_free_ring_buffer_test.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/test_main.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/src/os_ros.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_accessor_test.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_transform_test.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_cloud_compose_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ouster_ros_test[0m
+[100%] Built target ouster_ros_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/build.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/client.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/defaults.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/image_processing.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/cartesian.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/client_poller.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/netcompat.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/packet_writer.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/profile_extension.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/ring_buffer.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/lidar_scan.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/sensor_http.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/types.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/udp_packet_source.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/util.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/version.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/optional-lite/nonstd/optional.hpp
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/LICENSE
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/share/LICENSE-bin
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_sensor
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_replay
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_cloud
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_image
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/ouster_ros/os_driver
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libouster_ros_library.so
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_sensor_component.so
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_replay_component.so
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_cloud_component.so
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_image_component.so
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/lib/libos_driver_component.so
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//common_point_types.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_point.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_processing_node_base.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_ros.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//os_sensor_node_base.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//sensor_point_types.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster_ros//visibility_control.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/client.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/defaults.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/image_processing.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/cartesian.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/client_poller.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/netcompat.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/packet_writer.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/profile_extension.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/impl/ring_buffer.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/lidar_scan.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/sensor_http.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/types.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/udp_packet_source.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/util.h
+-- Up-to-date symlink: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/ouster/version.h
+-- Symlinking: /home/krri/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/nonstd/optional.hpp
