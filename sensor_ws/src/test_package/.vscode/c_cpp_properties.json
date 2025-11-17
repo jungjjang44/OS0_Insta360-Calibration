@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jetson2/OS0_Insta360-Calibration/sensor_ws/install/ouster_ros/include/**",
+        "/home/jetson2/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/include/**",
+        "/home/jetson2/ws_livox/install/livox_ros_driver2/include/**",
+        "/home/jetson2/zed_ws/install/zed_ipc/include/**",
+        "/home/jetson2/zed_ws/install/zed_topic_benchmark_component/include/**",
+        "/home/jetson2/zed_ws/install/zed_topic_benchmark_interfaces/include/**",
+        "/home/jetson2/zed_ws/install/zed_rgb_convert/include/**",
+        "/home/jetson2/zed_ws/install/zed_aruco_localization/include/**",
+        "/home/jetson2/zed_ws/install/zed_components/include/**",
+        "/home/jetson2/zed_ws/install/rviz_plugin_zed_od/include/**",
+        "/home/jetson2/zed_ws/install/zed_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/jetson2/OS0_Insta360-Calibration/sensor_ws/src/ouster-ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

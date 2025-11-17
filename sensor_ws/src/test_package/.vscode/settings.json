@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jetson2/OS0_Insta360-Calibration/sensor_ws/build/test_package",
+        "/home/jetson2/OS0_Insta360-Calibration/sensor_ws/install/test_package/lib/python3.10/site-packages",
+        "/home/jetson2/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages",
+        "/home/jetson2/ws_livox/install/pointcloud_processor/lib/python3.10/site-packages",
+        "/home/jetson2/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/jetson2/zed_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages",
+        "/home/jetson2/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jetson2/OS0_Insta360-Calibration/sensor_ws/build/test_package",
+        "/home/jetson2/OS0_Insta360-Calibration/sensor_ws/install/test_package/lib/python3.10/site-packages",
+        "/home/jetson2/OS0_Insta360-Calibration/sensor_ws/install/ouster_sensor_msgs/local/lib/python3.10/dist-packages",
+        "/home/jetson2/ws_livox/install/pointcloud_processor/lib/python3.10/site-packages",
+        "/home/jetson2/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/jetson2/zed_ws/install/zed_topic_benchmark_interfaces/local/lib/python3.10/dist-packages",
+        "/home/jetson2/zed_ws/install/zed_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
